@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thumbnail Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: #f7f7f7;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 20px;
+        }
+        .gallery a {
+            text-decoration: none;
+        }
+        .gallery img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            transition: transform 0.3s, border-color 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+            border-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <a href="https://banner2.cleanpng.com/20180326/hcw/avjf2rjuq.webp" target="_blank">
+            <img src="https://banner2.cleanpng.com/20180326/hcw/avjf2rjuq.webp" alt="Thumbnail 1">
+        </a>
+        <a href="https://i.pinimg.com/736x/54/7a/7f/547a7f9693b6ab79efcd963d2d760fcf.jpg" target="_blank">
+            <img src="https://i.pinimg.com/736x/54/7a/7f/547a7f9693b6ab79efcd963d2d760fcf.jpg" alt="Thumbnail 2">
+        </a>
+        <a href="https://miro.medium.com/v2/resize:fit:720/0*I32LiwMMYY16sPAB.jpg" target="_blank">
+            <img src="https://miro.medium.com/v2/resize:fit:720/0*I32LiwMMYY16sPAB.jpg" alt="Thumbnail 3">
+        </a>
+        <a href="https://i.pinimg.com/736x/a3/e3/2a/a3e32a1b47a6e1847a8e4c948fb7b1ac.jpg" target="_blank">
+            <img src="https://i.pinimg.com/736x/a3/e3/2a/a3e32a1b47a6e1847a8e4c948fb7b1ac.jpg" alt="Thumbnail 4">
+        </a>
+        <a href="https://images.template.net/wp-content/uploads/2015/09/Dora-Coloring-Pages.png" target="_blank">
+            <img src="https://images.template.net/wp-content/uploads/2015/09/Dora-Coloring-Pages.png" alt="Thumbnail 5"
+</body>
+</html>
