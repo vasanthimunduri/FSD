@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working with Tables</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Tables Demonstration</h1>
+
+    <h2>Basic Table</h2>
+    <table border="1">
+        <tr>
+            <th>S.no</th>
+            <th>Sub</th>
+            <th>Credits</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>FSD</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>ADSAA</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>MEFA</td>
+            <td>3</td>
+        </tr>
+
+    </table>
+
+    <h2>Table with Rowspan and Colspan</h2>
+    <table border="1">
+        <tr>
+            <th>DAY</th>
+            <th>1st period</th>
+            <th>2nd period</th>
+            <th>3rd period</th>
+            <th>4th period</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>ADSAA</td>
+            <td>OS</td>
+            <td colspan="2">FSD LAB</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td colspan="2">DT&I</td>
+            <td rowspan="2">FSD</td>
+            <td>MEFA</td>
+        </tr>
+        <tr>
+            <td>wednesday</td>
+            <td>SE</td>
+            <td>MEFA</td>
+            <td>CRT</td>
+        </tr>
+    </table>
+
+</body>
+</html>
